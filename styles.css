@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    max-width: 100%;
+    font-family: "Playwrite HR Lijeva", cursive;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(270.3deg, rgba(84, 212, 228, 1) 0.2%, rgba(68, 36, 164, 1) 100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.heading {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 20rem;
+}
+
+.imgloc,
+.load {
+    max-width: 6rem;
+    max-height: 6rem;
+}
+
+.imgloc img,
+.load img {
+    width: 100%;
+    height: 100%;
+}
+
+.grantaccess {
+    display: none;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.together {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.locpara1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.locpara2 {
+    font-size: 1.1rem;
+}
+
+.grantaccesbutton {
+    padding: 0.3rem 0.6rem;
+    border-radius: 0.5rem;
+    outline: none;
+    color: black;
+}
+
+.grantaccesbutton:hover {
+    color: white;
+    background-image: linear-gradient(270.3deg, rgba(84, 212, 228, 1) 0.2%, rgba(68, 36, 164, 1) 100%);
+}
+
+.yourweather,
+.searchweather {
+    padding: 0.2rem 0.5rem;
+}
+
+.yourweather:hover,
+.searchweather:hover {
+    border: 2px solid white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(109.6deg, rgba(217, 67, 67, 1) 11.2%, rgba(242, 106, 75, 1) 100.6%);
+}
+
+.borderadd {
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(109.6deg, rgba(217, 67, 67, 1) 11.2%, rgba(242, 106, 75, 1) 100.6%);
+
+}
+
+.buttonborder {
+    border: 1px solid white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.loading p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.loading {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.searchcity {
+    background-color: transparent;
+    padding: 0.2rem 0.7rem;
+    outline: none;
+    border-radius: 0.5rem;
+    border: 2px solid white;
+}
+
+#iconsearch {
+    border: 2px solid white;
+    padding: 0.3rem;
+    border-radius: 50%;
+}
+
+.imageicon {
+    max-width: 5rem;
+    max-height:
+        5rem;
+}
+
+.icondiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.heading h2 {
+    text-shadow: 1px 2px 5px red;
+}
+
+.icons {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    transition: all 1s 0s linear;
+    background-image: linear-gradient(109.6deg, rgba(217, 67, 67, 1) 11.2%, rgba(242, 106, 75, 1) 100.6%);
+}
+
+.icons:hover {
+    scale: 1.1;
+}
+
+::placeholder {
+    color: white;
+}
+
+.content {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.7rem;
+}
+
+.active {
+    display: flex;
+}
+
+.city {
+    display: flex;
+    gap: 0.3rem;
+    font-size: 1.3rem;
+}
+
+.atthattime {
+    font-size: 1.1rem;
+}
+
+.container2 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.otheractive {
+    display: flex;
+}
+
+.errormessage {
+    max-width: 20rem;
+    max-height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorimage {
+    width: 100%;
+    height: 100%;
+}

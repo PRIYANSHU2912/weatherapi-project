@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>WEATHER APP</h2>
+            <div class="buttons">
+                <p class="yourweather">Your Weather</p>
+                <p class="searchweather">Search Weather</p>
+            </div>
+        </div>
+
+        <div class="grantaccess">
+            <div class="imgloc">
+                <img src="location.png" alt="error">
+            </div>
+            <div class="together">
+                <p class="locpara1">Grant Location Access</p>
+                <p class="locpara2">Allow Access to Get Weather Information</p>
+            </div>
+            <button class="grantaccesbutton">GRANT ACCESS</button>
+        </div>
+
+        <div class="loading">
+            <div class="load">
+                <img src="loading.gif" alt="error">
+            </div>
+            <p>LOADING</p>
+        </div>
+
+        <form class="search">
+            <input type="text" class="searchcity" placeholder="Search for city...">
+            <i class="fa-solid fa-magnifying-glass" id="iconsearch"></i>
+        </form>
+
+        <div class="content">
+            <div class="city">
+                <div class="cityname"></div>
+                <img src="" class="countryicon" width="25px" height="25px">
+            </div>
+            <div class="atthattime"></div>
+            <img src="" class="atthattimeimage" width="50px" height="50px">
+            <div class="temperature"></div>
+            <div class="icondiv">
+                <div id="wind" class="icons">
+                    <img src="wind.png" class="imageicon">
+                    <div class="windcontent">WINDSPEED</div>
+                    <div class="windspeed"></div>
+                </div>
+                <div id="humidity" class="icons">
+                    <img src="humidity.png" class="imageicon">
+                    <div class="humiditycontent">HUMIDITY</div>
+                    <div class="humiditypercentage"></div>
+                </div>
+                <div id="clouds" class="icons">
+                    <img src="cloud.png" class="imageicon">
+                    <div class="cloudcontent">CLOUDS</div>
+                    <div class="cloudpercentage"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container2">
+            <div class="errormessage">
+                <img src="not-found.png" class="errorimage">
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/58a810656e.js"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>
